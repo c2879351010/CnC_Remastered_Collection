@@ -1,4 +1,4 @@
-//
+ï»¿//
 // Copyright 2020 Electronic Arts Inc.
 //
 // TiberianDawn.DLL and RedAlert.dll and corresponding source code is free 
@@ -64,24 +64,24 @@
  * placement mode.                                                         *
  *   This routine does not modify PendingObject or PendingHouse.           *
  *                                                                         *
- *  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                   *
- *  ³   [GDI]  [NOD]  [Neutral]                        ³                   *
- *  ³                                                  ³                   *
- *  ³   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿              ³                   *
- *  ³   ³                               ³ [Template]   ³                   *
- *  ³   ³                               ³ [Overlay ]   ³                   *
- *  ³   ³                               ³ [Smudge  ]   ³                   *
- *  ³   ³                               ³ [Terrain ]   ³                   *
- *  ³   ³      (Object picture)         ³ [Unit    ]   ³                   *
- *  ³   ³                               ³ [Infantry]   ³                   *
- *  ³   ³                               ³ [Aircraft]   ³                   *
- *  ³   ³                               ³ [Building]   ³                   *
- *  ³   ³                               ³              ³                   *
- *  ³   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ     ÚÄÄÄÄÄÄ¿ ³                   *
- *  ³             [<-]  [->]                  ³(Grid)³ ³                   *
- *  ³                                         ³      ³ ³                   *
- *  ³         [OK]        [Cancel]            ÀÄÄÄÄÄÄÙ ³                   *
- *  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                   *
+ *  è°€------------------------ç›®                   *
+ *  ?  [GDI]  [NOD]  [Neutral]                        ?                  *
+ *  ?                                                 ?                  *
+ *  ?  è°€---------------?             ?                  *
+ *  ?  ?                              ?[Template]   ?                  *
+ *  ?  ?                              ?[Overlay ]   ?                  *
+ *  ?  ?                              ?[Smudge  ]   ?                  *
+ *  ?  ?                              ?[Terrain ]   ?                  *
+ *  ?  ?     (Object picture)         ?[Unit    ]   ?                  *
+ *  ?  ?                              ?[Infantry]   ?                  *
+ *  ?  ?                              ?[Aircraft]   ?                  *
+ *  ?  ?                              ?[Building]   ?                  *
+ *  ?  ?                              ?             ?                  *
+ *  ?  æ»¥---------------?    è°€--ç›® ?                  *
+ *  ?            [<-]  [->]                  ?Grid)??                  *
+ *  ?                                        ?     ??                  *
+ *  ?        [OK]        [Cancel]            æ»¥--é¦ ?                  *
+ *  æ»¥------------------------é¦                   *
  *                                                                         *
  * INPUT:                                                                  *
  *      none.                                                              *

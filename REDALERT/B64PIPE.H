@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright 2020 Electronic Arts Inc.
 //
 // TiberianDawn.DLL and RedAlert.dll and corresponding source code is free 
@@ -17,7 +17,7 @@
 /***********************************************************************************************
  ***              C O N F I D E N T I A L  ---  W E S T W O O D  S T U D I O S               ***
  ***********************************************************************************************
- *                                                                                             *
+ *                                                                                   v          *
  *                 Project Name : Command & Conquer                                            *
  *                                                                                             *
  *                    File Name : B64PIPE.H                                                    *

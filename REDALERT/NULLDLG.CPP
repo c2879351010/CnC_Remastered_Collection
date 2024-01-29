@@ -1,4 +1,4 @@
-//
+ï»¿//
 // Copyright 2020 Electronic Arts Inc.
 //
 // TiberianDawn.DLL and RedAlert.dll and corresponding source code is free 
@@ -1581,35 +1581,35 @@ Advanced_Modem_Settings (SerialSettingsType *settings)
 /***************************************************************************
  * Com_Settings_Dialog -- Lets user select serial port settings            *
  *                                                                         *
- *  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿               *
- *  ³                    Settings                          ³               *
- *  ³                                                      ³               *
- *  ³     Port:____       IRQ:__        Baud:______        ³               *
- *  ³  ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿  ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿  ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿      ³               *
- *  ³  ³            ³  ³            ³  ³            ³      ³               *
- *  ³  ³            ³  ³            ³  ³            ³      ³               *
- *  ³  ³            ³  ³            ³  ³            ³      ³               *
- *  ³  ³            ³  ³            ³  ³            ³      ³               *
- *  ³  ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ  ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ  ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ      ³               *
- *  ³                                                      ³               *
- *  ³   Initialization:        [Add]   [Delete]            ³               *
- *  ³    _____________________________                     ³               *
- *  ³   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿     ³               *
- *  ³   ³                                            ³     ³               *
- *  ³   ³                                            ³     ³               *
- *  ³   ³                                            ³     ³               *
- *  ³   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ     ³               *
- *  ³                                                      ³               *
- *  ³   Call Waiting:                                      ³               *
- *  ³    _______________                                   ³               *
- *  ³   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿          [Tone Dialing]        ³               *
- *  ³   ³                 ³                                ³               *
- *  ³   ³                 ³          [Pulse Dialing]       ³               *
- *  ³   ³                 ³                                ³               *
- *  ³   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                                ³               *
- *  ³                                                      ³               *
- *  ³                   [OK]   [Cancel]                    ³               *
- *  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ               *
+ *  è°€--------------------------ç›®               *
+ *  ?                   Settings                          ?              *
+ *  ?                                                     ?              *
+ *  ?    Port:____       IRQ:__        Baud:______        ?              *
+ *  ? è°€-----ç›®  è°€-----ç›®  è°€-----ç›®      ?              *
+ *  ? ?           ? ?           ? ?           ?     ?              *
+ *  ? ?           ? ?           ? ?           ?     ?              *
+ *  ? ?           ? ?           ? ?           ?     ?              *
+ *  ? ?           ? ?           ? ?           ?     ?              *
+ *  ? æ»¥-----é¦  æ»¥-----é¦  æ»¥-----é¦      ?              *
+ *  ?                                                     ?              *
+ *  ?  Initialization:        [Add]   [Delete]            ?              *
+ *  ?   _____________________________                     ?              *
+ *  ?  è°€---------------------ç›®     ?              *
+ *  ?  ?                                           ?    ?              *
+ *  ?  ?                                           ?    ?              *
+ *  ?  ?                                           ?    ?              *
+ *  ?  æ»¥---------------------é¦     ?              *
+ *  ?                                                     ?              *
+ *  ?  Call Waiting:                                      ?              *
+ *  ?   _______________                                   ?              *
+ *  ?  è°€--------?         [Tone Dialing]        ?              *
+ *  ?  ?                ?                               ?              *
+ *  ?  ?                ?         [Pulse Dialing]       ?              *
+ *  ?  ?                ?                               ?              *
+ *  ?  æ»¥--------?                               ?              *
+ *  ?                                                     ?              *
+ *  ?                  [OK]   [Cancel]                    ?              *
+ *  æ»¥--------------------------é¦               *
  *                                                                         *
  * INPUT:                                                                  *
  *		settings		ptr to SerialSettingsType structure								*
@@ -4751,29 +4751,29 @@ bool Find_Local_Scenario (char *description, char *filename, unsigned int length
  * vector, and Chat vector aren't used at all by this routine.  The Game & Players				  *
  * list boxes are filled in manually in the processing loop.											  *
  *                                                                         						  *
- *    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                      	  *
- *    ³                        Serial Game                         ³                       	  *
- *    ³                                                            ³                      	  *
- *    ³                   Your Name: __________                    ³     							  *
- *    ³                       House: [GDI] [NOD]                   ³									  *
- *    ³               Desired Color: [ ][ ][ ][ ]                  ³ 	   						  *
- *    ³                                                            ³                    	 	  *
- *    ³                     Opponent: Name                         ³                    	 	  *
- *    ³                     Scenario: Description                  ³   								  *
- *    ³                      Credits: xxxx                         ³   								  *
- *    ³                        Bases: ON                           ³                   	 	  *
- *    ³                       Crates: ON                           ³                   	 	  *
- *    ³                     Tiberium: ON                           ³                   	 	  *
- *    ³                       Ghosts: ON                           ³                   	 	  *
- *    ³                                                            ³                   	 	  *
- *    ³                         [Cancel]                           ³                    	 	  *
- *    ³                                                            ³                   	 	  *
- *    ³   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿   ³                   	 	  *
- *    ³   ³                                                    ³   ³                   	 	  *
- *    ³   ³                                                    ³   ³                   	 	  *
- *    ³   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ   ³                   	 	  *
- *    ³                       [Send Message]                       ³                   	 	  *
- *    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                      	  *
+ *    è°€-----------------------------ç›®                      	  *
+ *    ?                       Serial Game                         ?                      	  *
+ *    ?                                                           ?                     	  *
+ *    ?                  Your Name: __________                    ?    							  *
+ *    ?                      House: [GDI] [NOD]                   ?								  *
+ *    ?              Desired Color: [ ][ ][ ][ ]                  ?	   						  *
+ *    ?                                                           ?                   	 	  *
+ *    ?                    Opponent: Name                         ?                   	 	  *
+ *    ?                    Scenario: Description                  ?  								  *
+ *    ?                     Credits: xxxx                         ?  								  *
+ *    ?                       Bases: ON                           ?                  	 	  *
+ *    ?                      Crates: ON                           ?                  	 	  *
+ *    ?                    Tiberium: ON                           ?                  	 	  *
+ *    ?                      Ghosts: ON                           ?                  	 	  *
+ *    ?                                                           ?                  	 	  *
+ *    ?                        [Cancel]                           ?                   	 	  *
+ *    ?                                                           ?                  	 	  *
+ *    ?  è°€-------------------------ç›®   ?                  	 	  *
+ *    ?  ?                                                   ?  ?                  	 	  *
+ *    ?  ?                                                   ?  ?                  	 	  *
+ *    ?  æ»¥-------------------------é¦   ?                  	 	  *
+ *    ?                      [Send Message]                       ?                  	 	  *
+ *    æ»¥-----------------------------é¦                      	  *
  *                                                                         						  *
  * INPUT:                                                                  						  *
  *		none.																												  *
@@ -7593,7 +7593,7 @@ void Hex_Dump_Data( char *buffer, int length )
 			itoh(c, buff);
 
 			if (!(i & 0x3) && i) {
-				Smart_Printf("³ ");
+				Smart_Printf("?");
 			}
 
 			Smart_Printf("%s ", buff);
@@ -7627,7 +7627,7 @@ void Hex_Dump_Data( char *buffer, int length )
 				c = ptr[i];
 				itoh(c, buff);
 				if (!(i & 0x3) && i) {
-					Smart_Printf("³ ");
+					Smart_Printf("?");
 				}
 				Smart_Printf("%s ", buff);
 			} else {
